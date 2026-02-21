@@ -1,6 +1,6 @@
 # Website
 
-![macrocosm documentation and pages](https://github.com/syndicate-ss14/static/img/docslogo.png)
+![macrocosm documentation and pages](https://github.com/syndicate-ss14/docs/blob/main/static/img/docslogo.png)
 
 Documentation of various tools, and tutorials for Macrocosm, bylaws for the organization, and assorted documents that members can reference. This page will be modified as this repository evolves.
 
