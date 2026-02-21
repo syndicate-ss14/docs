@@ -1,0 +1,9 @@
+policy:
+  label: 'Policy'
+  permalink: '/policy'
+  description: 'Rules all maintainers of Macrocosm adhere to.'
+
+bylaws:
+  label: 'Bylaws'
+  permalink: '/bylaws'
+  description: 'Processes and mechanisms that all maintainers of Macrocosm use to organize.'

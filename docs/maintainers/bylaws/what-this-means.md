@@ -1,0 +1,8 @@
+---
+tags:
+  - bylaws
+---
+
+# Title
+
+Content
