@@ -1,0 +1,7 @@
+# useful for segregating content, do keep these as high level as possible, so a person can build a custom query or some shit idk
+
+writeups:
+  label: Write Ups
+  permalink: /writeups
+  description: Catch all for things talking about policy, design, etc.
+
