@@ -1,5 +1,9 @@
 # Website
 
+![macrocosm documentation and pages](https://github.com/syndicate-ss14/static/img/docslogo.png)
+
+Documentation of various tools, and tutorials for Macrocosm, bylaws for the organization, and assorted documents that members can reference. This page will be modified as this repository evolves.
+
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ## Installation
