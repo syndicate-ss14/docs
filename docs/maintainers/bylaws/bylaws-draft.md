@@ -34,6 +34,6 @@ Maintainers are ultimately responsible for the website, repo, and any other proj
 
 # Purpose
 
-Our purpose as an organization is to provide a stable upstream with focuses on customizability. 
+Our purpose as an organization is to provide a stable upstream with a focus on modularity and ease of customization. 
 
 Macrocosm will never host official servers. While the base Macrocosm experience will be a playable one, there will not be a guarantee on balance or cohesiveness on the experience. Rather, this will be up to each individual member community.
