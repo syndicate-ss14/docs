@@ -17,7 +17,7 @@ A Microcosm is a member community where decisions are made from. A Maintainer is
 
 A Microcosm has a single vote in binding decisions. For example, if there is a vote presented to change the Macrocosm name, each Microcosm will have a single vote. Microcosms are free to choose how their votes are decided. 
 
-A Microcosm can decide how to introduce votes to all other Microcosms.
+A Microcosm can decide how to propose or introduce votes to all other Microcosms. As a general rule, each Microcosm is expected to conduct internal organization independent of other Microcosms.
 
 ## Maintainer
 
