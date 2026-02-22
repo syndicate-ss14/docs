@@ -25,7 +25,7 @@ A maintainer is someone who is trusted with certain responsibilities. While diff
 
 * A promise to the Space Station 14 community that they will manage features with the best interest of the community in mind.
 * A promise that they will act within process and bring grievances to the table instead of letting grievances linger.
-* A promise of transparency with the community in-regards to their opinions of features.
+* A promise of transparency with the community in regards to their opinions of features.
 * A promise that regardless of whatever features they advocate for or are against, that they are given proper attention when it is needed.
 * A promise that anything they produce is to the highest quality they can produce.
 * A promise that a maintainer will not involve themselves in the happenings of another community they are not a part of, especially in the case of admin rulings or admin decisions when it is unrelated to game design.
