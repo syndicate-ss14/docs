@@ -13,7 +13,7 @@ A list showing all the terms we will be using.
 
 ## Microcosm
 
-A Microcosm is a member community where decisions are made from. A Maintainer is a member of a Microcosm. Maintainers cannot be a part of multiple Microcosms.
+A Microcosm is a member community that participates in decisionmaking for Macrocosm. A Maintainer is a member of a Microcosm. Maintainers cannot be part of multiple Microcosms.
 
 A Microcosm has a single vote in binding decisions. For example, if there is a vote presented to change the Macrocosm name, each Microcosm will have a single vote. Microcosms are free to choose how their votes are decided. 
 
