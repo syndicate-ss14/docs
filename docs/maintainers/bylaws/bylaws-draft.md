@@ -30,7 +30,7 @@ A maintainer is someone who is trusted with responsibilities pertaining to the u
 * A promise that contributions will be the highest quality they can produce.
 * A promise that a maintainer will not involve themselves in the happenings of another microcosm or community they are not a part of, especially in the case of admin rulings or admin decisions when it is unrelated to game design.
 
-Maintainers are ultimately responsible for the website, repo, and any other projects that may be created under the Macrocosm project.
+Maintainers are ultimately responsible for the website, repository, and any other projects that may be created under the Macrocosm project.
 
 # Purpose
 
