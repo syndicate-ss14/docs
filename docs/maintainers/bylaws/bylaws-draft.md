@@ -27,7 +27,7 @@ A maintainer is someone who is trusted with responsibilities pertaining to the u
 * A promise that they will act within process and bring grievances to the table instead of letting grievances linger.
 * A promise of transparency with the community in regards to their opinions of features.
 * A promise that regardless of their personal stance on a feature, they will give development on the feature the proper attention that is required.
-* A promise that anything they produce is to the highest quality they can produce.
+* A promise that contributions will be the highest quality they can produce.
 * A promise that a maintainer will not involve themselves in the happenings of another microcosm or community they are not a part of, especially in the case of admin rulings or admin decisions when it is unrelated to game design.
 
 Maintainers are ultimately responsible for the website, repo, and any other projects that may be created under the Macrocosm project.
