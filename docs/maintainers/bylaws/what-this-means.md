@@ -9,4 +9,4 @@ Bylaws are the rules in which we organize as an organization. Things like missio
 
 # So why does it merit a page?
 
-Because being explicit as possible with what the goals are and how we organize as an organization is incredibly important to us.
+Because being explicit with our goals and our organization is important to us.
