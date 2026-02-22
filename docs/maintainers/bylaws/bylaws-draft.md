@@ -21,7 +21,7 @@ A Microcosm can decide how to propose or introduce votes to all other Microcosms
 
 ## Maintainer
 
-A maintainer is someone who is trusted with certain responsibilities. While different maintainers can be responsible for different things, all maintainers are to operate with these expectations in mind: 
+A maintainer is someone who is trusted with responsibilities pertaining to the upkeep and development of Macrocosm. While different maintainers can be responsible for different things, all maintainers are to operate with these expectations in mind: 
 
 * A promise to the Space Station 14 community that they will manage features with the best interest of the community in mind.
 * A promise that they will act within process and bring grievances to the table instead of letting grievances linger.
