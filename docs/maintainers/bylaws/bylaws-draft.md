@@ -17,7 +17,7 @@ A Microcosm is a member community that participates in decisionmaking for Macroc
 
 A Microcosm has a single vote in binding decisions. For example, if there is a vote presented to change the Macrocosm name, each Microcosm will have a single vote. Microcosms are free to choose how their votes are decided. 
 
-A Microcosm can decide how to propose or introduce votes to all other Microcosms. As a general rule, each Microcosm is expected to conduct internal organization independent of other Microcosms.
+Each Microcosm decides how to propose or introduce votes to all other Microcosms. As a general rule, each Microcosm is expected to operate independently of other Microcosms.
 
 ## Maintainer
 
@@ -34,6 +34,6 @@ Maintainers are ultimately responsible for the website, repository, and any othe
 
 # Purpose
 
-Our purpose as an organization is to provide a stable upstream with a focus on modularity and ease of customization. 
+Our purpose as an organization is to share resources, providing a shared upstream with which to split the workload of managing downstream maintenance.
 
 Macrocosm will never host official servers. While the base Macrocosm experience will be a playable one, there will not be a guarantee on balance or cohesiveness on the experience. Rather, this will be up to each individual member community.
