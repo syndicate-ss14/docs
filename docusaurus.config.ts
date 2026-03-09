@@ -58,7 +58,7 @@ const config: Config = {
       title: 'macrocosm',
       logo: {
         alt: 'macrocosm logo',
-        src: 'img/logo.svg',
+        src: 'img/thusd_syndicate.png',
       },
       items: [
         {
