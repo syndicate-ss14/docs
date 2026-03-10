@@ -30,6 +30,10 @@ A maintainer is someone who is selected by a Microcosm to be trusted with respon
 
 Maintainers are ultimately responsible for the website, repository, and any other projects that may be created under the Macrocosm project.
 
+### Triage
+
+The triage team are maintainers responsible for the bureaucratic processing of pull requests and other project proposals. Triage handles the categorization of all pull requests and facilitates the voting process for each where applicable. The triage team consists of at least one representative from each Microcosm.
+
 ## Purpose
 
 Our purpose as an organization is to share resources, providing a shared upstream with which to split the workload of managing downstream maintenance.
