@@ -128,6 +128,8 @@ This prefix and suffix format is preferable for multi-line blocks of code added 
 
 This is helpful both for maintainers to vet the code and ensure that it works as intended, and for future contributors to more easily understand code and be able to iterate on it.
 
+Code should at miniumum come with summary comments on Functions, Classes and Variables with exceptions for variables that are `EntitySystem` or `IEntitySystem` Dependencies within Systems. These comments should give a brief rundown of the Class/Function/Variables purpose in order to aid anyone who needs to work on that code in the future. Having comments on variables will help YAML users as well.
+
 Here is a sample of a well-summarized, fully explained piece of code:
 
 <!-- code from impstation#3946 i picked this one because its funny sorry fan -->
