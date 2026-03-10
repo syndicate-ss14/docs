@@ -1,6 +1,6 @@
 ---
 tags:
-  - Conventions
+  - conventions
 ---
 
 # Pull Requests
@@ -30,6 +30,8 @@ All unique content **must be in the `_MACRO`** namespace. This includes all new 
 ### Content should be easy for a downstream to disable
 
 Macrocosm prides itself on its customizability as a base for downstreams. All content should have some way to "opt out" of it if feasible, ideally via cvars or minimal YML edits. **If a PR does not provide a way to disable itself, it may be rejected.**
+
+A common and viable way to implement co
 
 ### Comment changes made outside of `_MACRO`
 
