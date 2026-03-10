@@ -7,3 +7,8 @@ conventions:
   label: 'Conventions'
   permalink: '/conventions'
   description: 'Standards by which Macrocosm handles specific procedures.'
+
+microcosms:
+  label: 'Microcosms'
+  permalink: '/microcosms'
+  description: 'Members of Macrocosm.'

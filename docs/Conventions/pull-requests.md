@@ -19,7 +19,7 @@ We highly recommend playtesting and finalizing content in a Microcosm first and 
 
 Our codebase is under the MIT License. <!-- link to our repos license goes here when we make it --> While other codebases are free to use any license that suits them, we require that all code brought to Macrocosm be licensed under MIT as well. **It is the responsibility of the Pull Request creator to ensure that they are following the license of all code involved. If we believe that a PR has not received appropriate permission to be relicensed to MIT, it will be closed.**
 
-### Original content goes in `_MACRO` <!-- wip namespace maybe need something less horny -->
+### Original content goes in `_MACRO`
 
 As we are downstream of Wizard's Den, namespacing content unique to Macrocosm is important for easing the difficulty of upstream merges.
 
@@ -31,7 +31,7 @@ All unique content **must be in the `_MACRO`** namespace. This includes all new 
 
 Macrocosm prides itself on its customizability as a base for downstreams. All content should have some way to "opt out" of it if feasible, ideally via cvars or minimal YML edits. **If a PR does not provide a way to disable itself, it may be rejected.**
 
-A common and viable way to implement co
+An example would be to add content but comment out the method in which it would impact a round, such as the entry in a vendor's inventory or where the gamerule would be in an event scheduler.
 
 ### Comment changes made outside of `_MACRO`
 
@@ -130,7 +130,7 @@ This prefix and suffix format is preferable for multi-line blocks of code added 
 
 This is helpful both for maintainers to vet the code and ensure that it works as intended, and for future contributors to more easily understand code and be able to iterate on it.
 
-Code should at miniumum come with summary comments on Functions, Classes and Variables with exceptions for variables that are `EntitySystem` or `IEntitySystem` Dependencies within Systems. These comments should give a brief rundown of the Class/Function/Variables purpose in order to aid anyone who needs to work on that code in the future. Having comments on variables will help YAML users as well.
+Code should at minimum come with summary comments on Functions, Classes and Variables with exceptions for variables that are `EntitySystem` or `IEntitySystem` Dependencies within Systems. These comments should give a brief rundown of the Class/Function/Variables purpose in order to aid anyone who needs to work on that code in the future. Having comments on variables will help YAML users as well.
 
 Here is a sample of a well-summarized, fully explained piece of code:
 
@@ -196,3 +196,12 @@ Here is a sample of a well-summarized, fully explained piece of code:
         return true;
     }
 ```
+
+### Recommended Reading
+
+[The Robust Book](https://docs.spacestation14.com/) - Space Wizards Development Wiki
+[Quick Guide to Space Station 14 Codebase Setup](https://gist.github.com/portfiend/6529ca0b1a5f98747e99ec2beea6a741) by portfiend
+[Mutual Aid: A Factor of Evolution](https://theanarchistlibrary.org/library/petr-kropotkin-mutual-aid-a-factor-of-evolution) by Pëtr Kropotkin
+[To Change Everything](https://crimethinc.com/tce) by Crimethinc
+[Beck's Robust ECS For Dummies](https://docs.google.com/document/d/1GCzkuWUqCNcl4WrmQQMbWgB5q8o0k6LYI46hqSt5cPY/) by widgetbeck
+[The Slarti Guide](https://hackmd.io/@Slart/S1hsoGFm1l) by Slartibartfast

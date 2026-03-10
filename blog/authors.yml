@@ -6,6 +6,13 @@
 taydeo:
   name: taydeo
   title: Funky Station Host, Macrocosm person
-  url: https://github.com/taydeo
+  socials:
+    github: taydeo
   page: true
 
+hivehum:
+  name: hivehum
+  title: extremely vocal member of impstation
+  socials:
+    github: hivehum
+  page: true
