@@ -29,13 +29,13 @@ All unique content **must be in the `_MACRO`** namespace. This includes all new 
 
 ### Content should be easy for a downstream to disable
 
-Macrocosm prides itself on its customizability as a base for downstreams. All content should have some way to "opt out" of it if feasible, ideally via cvars or minimal YML edits. **If a PR does not provide a way to disable itself, it may be rejected.**
+Macrocosm prides itself on its customizability as a base for downstreams. All features should have some way to "opt out" if feasible, ideally via cvars or minimal YML edits. **If a PR introducing a new feature does not provide a way to disable that feature, it may be rejected.**
 
-An example would be to add content but comment out the method in which it would impact a round, such as the entry in a vendor's inventory or where the gamerule would be in an event scheduler.
+An example of an easily removable feature would be ensuring that downstreams can comment out the means by which the feature would impact a round, such as the entry in a vendor's inventory or where the gamerule would be in an event scheduler.
 
 ### Comment changes made outside of `_MACRO`
 
-If you alter code, you need to leave a comment to indicate that the code was altered. This is to prevent confusion and accidental erasure of your changes in the future.
+If you alter code, you need to leave a comment to indicate that the code was altered, and how it was altered. This is to prevent confusion and accidental erasure of your changes in the future.
 
 Additionally, changes to a YAML prototype that add components should be added to the end of the prototype.
 
@@ -109,7 +109,7 @@ Note that there is just one comment here, on the line with the effect type; even
     }
 };
 ```
-This inline comment is preferable for very small, single line changes.
+This inline comment is preferable for very small, single line changes. Note how the comment also indicates what change was made, preserving the original intent for quick reference.
 
 <!-- code from funky-station#368 w/ comments changed-->
 ```csharp

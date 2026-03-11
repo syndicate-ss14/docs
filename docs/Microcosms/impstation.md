@@ -5,7 +5,6 @@ tags:
 
 # IMPstation
 
-
 <div class="text--center">
   ![impstation logo](/img/impstation.png)
 </div>
