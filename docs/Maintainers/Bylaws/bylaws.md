@@ -5,21 +5,9 @@ tags:
 
 # Bylaws
 
-## Terms
+## Principles
 
-A list showing all the terms we will be using.
-
-### Microcosm
-
-A Microcosm is a member community that participates in decisionmaking for Macrocosm. A Maintainer is a member of a Microcosm. Maintainers cannot be part of multiple Microcosms.
-
-A Microcosm has a single vote in binding decisions. For example, if there is a vote presented to change the Macrocosm name, each Microcosm will have a single vote. Microcosms are free to choose how their votes are decided. 
-
-Each Microcosm decides how to propose or introduce votes to all other Microcosms. As a general rule, each Microcosm is expected to operate independently of other Microcosms.
-
-### Maintainer
-
-A maintainer is someone who is selected by a Microcosm to be trusted with responsibilities pertaining to the upkeep and development of Macrocosm. While different maintainers can be responsible for different things, all maintainers are to operate with these expectations in mind: 
+All Microcosms and their representative Maintainers strive to follow these principles in the upkeep and development of Macrocosm:
 
 * A promise to our community that they will manage features with the best interest of the community in mind.
 * A promise that they will act within process and bring grievances to the table instead of letting grievances linger.
@@ -27,12 +15,6 @@ A maintainer is someone who is selected by a Microcosm to be trusted with respon
 * A promise that they will give development on a feature the proper attention that is required, regardless of their personal stance on the feature.
 * A promise that contributions will be the highest quality they can produce.
 * A promise that a maintainer will not involve themselves in the happenings of another microcosm or community they are not a part of, especially in the case of admin rulings or admin decisions when it is unrelated to game design.
-
-Maintainers are ultimately responsible for the website, repository, and any other projects that may be created under the Macrocosm project.
-
-### Triage
-
-The triage team are maintainers responsible for the bureaucratic processing of pull requests and other project proposals. Triage handles the categorization of all pull requests and facilitates the voting process for each where applicable. The triage team consists of at least one representative from each Microcosm.
 
 ## Purpose
 

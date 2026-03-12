@@ -78,15 +78,15 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
+        // {
+        //  title: 'Docs',
+        //  items: [
+        //    {
+        //      label: 'Tutorial',
+        //      to: '/docs/intro',
+        //    },
+        //  ],
+        // },
         // {
         //   title: 'Community',
         //   items: [
@@ -114,7 +114,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Macrocosm. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} the Syndicate. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
