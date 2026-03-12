@@ -9,6 +9,6 @@ tags:
   ![funky logo](/img/funky.png)
 </div>
 
-<!-- Funky Freaks come up with your own bio -->
+Funky Station is a seriously silly dark comedy set on a doomed space station, with an emphasis on playing your character.
 
 Funky Station's rebase project, [Forky Station](https://github.com/funky-station/forky-station), is downstream of Macrocosm.
