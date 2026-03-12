@@ -3,7 +3,7 @@ tags:
   - bylaws
 ---
 
-# What are bylaws?
+# What are Bylaws?
 
 Bylaws are the rules we follow as an organization. Things like mission, procedures on PRs, and other such matters are going to be defined here.
 

@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'macrocosm docs',
   tagline: 'macrocosm YAYY!!!',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/thusd_syndicate.ico',
 
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
