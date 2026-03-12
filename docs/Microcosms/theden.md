@@ -9,6 +9,6 @@ tags:
   ![the den logo](/img/den.png)
 </div>
 
-<!-- denheads come up with your own bio -->
+The Den is a private, roleplay focused 18+ MRP server where roleplay takes precedence over gameplay. Originally founded by a small group of friends, Den has become more than they ever could have dreamed of.
 
 The Den's rebase project, [The Den Two](https://github.com/TheDenSS14/TheDenTwo), is downstream of Macrocosm.
