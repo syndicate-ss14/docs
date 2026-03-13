@@ -3,9 +3,54 @@
 # if you add too many i will judge you.
 # ok bye bye!! ~ tay
 
+# all authors can be viewed at /blog/authors/. see also: https://docusaurus.io/docs/blog#global-authors
+# list of fields:
+#   name: your name
+#   title: your title - probably list what server you're representing
+#   url: genuinely no clue what this does. TODO
+#   image_url: author icon
+#   email: optional
+#   socials: dictionary, optional. makes those nice little icons on the author page
+#   page: boolean, whether or not you get an author page at /authors/[author key]
+# 
+# keep in mind author icons display at ~86px on the authors page, be considerate of download size
+# for your icons. it probably does not need to be bigger than 150px realistically
+# ~ portfiend
+
+hivehum:
+  name: hivehum
+  title: extremely vocal member of impstation
+  image_url: /img/authors/hivehum.png
+  socials:
+    github: hivehum
+  page: true
+
+mqole:
+  name: mqole
+  title: impstation freak, spreadsheet enthusiast
+  image_url: /img/authors/mqole.png
+  socials:
+    github: mqole
+  page: true
+
+portfiend:
+  name: portfiend
+  title: smiley guy, Head Maintainer, The Den
+  image_url: /img/authors/portfiend.png
+  socials:
+    github: portfiend
+  page: true
+
+sheepmera:
+  name: sheepmera
+  title: den owner, chimera, a literal sheepie, macrocosm person 
+  socials:
+    github: juniwoofs
+  page: true
+
 taydeo:
   name: taydeo
   title: Funky Station Host, Macrocosm person
-  url: https://github.com/taydeo
+  socials:
+    github: taydeo
   page: true
-

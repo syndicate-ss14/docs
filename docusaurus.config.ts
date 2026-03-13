@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'macrocosm docs',
   tagline: 'macrocosm YAYY!!!',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/thusd_syndicate.ico',
 
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
@@ -65,7 +65,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Documents',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -78,15 +78,15 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
+        // {
+        //  title: 'Docs',
+        //  items: [
+        //    {
+        //      label: 'Tutorial',
+        //      to: '/docs/intro',
+        //    },
+        //  ],
+        // },
         // {
         //   title: 'Community',
         //   items: [
@@ -114,9 +114,10 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Macrocosm. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} the Syndicate. Built with Docusaurus.`,
     },
     prism: {
+      additionalLanguages: ['csharp'],
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
