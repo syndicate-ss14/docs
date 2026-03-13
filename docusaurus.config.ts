@@ -117,6 +117,7 @@ const config: Config = {
       copyright: `Copyright © ${new Date().getFullYear()} the Syndicate. Built with Docusaurus.`,
     },
     prism: {
+      additionalLanguages: ['csharp'],
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
