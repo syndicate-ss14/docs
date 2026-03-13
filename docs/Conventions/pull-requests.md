@@ -25,7 +25,9 @@ As we are downstream of Wizard's Den, namespacing content unique to Macrocosm is
 
 <!-- THIS ONES CONTROVERSIAL!!! READ IT AND DECIDE!!! -->
 
-All unique content **must be in the `_MACRO`** namespace. This includes all new **prototypes**, **audio**, **textures**, **locale strings**, and **C# code**.
+A "namespace" is a subfolder in the game's directories that represents original content not added by Wizard's Den. Conventionally, the Space Station 14 community uses underscores (`_`) as a prefix for namespace folders, such as `_DEN`, `_Funkystation`, or `_Impstation`. Namespace folders are found under C# assembly folders (e.g. `/Content.Shared/_MACRO/`) or within Resources subfolders (e.g. `/Resources/Prototypes/_MACRO/`.)
+
+All content original to Macrocosm **must be in the `_MACRO`** namespace. This includes all new **prototypes**, **audio**, **textures**, **locale strings**, and **C# code**. When a Microcosm ports their own features to Macrocosm ("upstreaming"), the ported feature should be moved from the Microcosm's namespace (if any) into the `_MACRO` namespace.
 
 ### Content should be easy for a downstream to disable
 
