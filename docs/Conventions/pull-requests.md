@@ -17,13 +17,11 @@ We highly recommend playtesting and finalizing content in a Microcosm first and 
 
 ### Content brought to Macrocosm must match our license
 
-Our codebase is under the MIT License. <!-- link to our repos license goes here when we make it --> While other codebases are free to use any license that suits them, we require that all code brought to Macrocosm be licensed under MIT as well. **It is the responsibility of the Pull Request creator to ensure that they are following the license of all code involved. If we believe that a PR has not received appropriate permission to be relicensed to MIT, it will be closed.**
+Our codebase is under the [MIT License](https://github.com/syndicate-ss14/macrocosm/blob/master/LICENSE.TXT). While other codebases are free to use any license that suits them, we require that all code brought to Macrocosm be licensed under MIT as well. **It is the responsibility of the Pull Request creator to ensure that they are following the license of all code involved. If we believe that a PR has not received appropriate permission to be relicensed to MIT, it will be closed.**
 
 ### Original content goes in `_MACRO`
 
 As we are downstream of Wizard's Den, namespacing content unique to Macrocosm is important for easing the difficulty of upstream merges.
-
-<!-- THIS ONES CONTROVERSIAL!!! READ IT AND DECIDE!!! -->
 
 A "namespace" is a subfolder in the game's directories that represents original content not added by Wizard's Den. Conventionally, the Space Station 14 community uses underscores (`_`) as a prefix for namespace folders, such as `_DEN`, `_Funkystation`, or `_Impstation`. Namespace folders are found under C# assembly folders (e.g. `/Content.Shared/_MACRO/`) or within Resources subfolders (e.g. `/Resources/Prototypes/_MACRO/`.)
 
