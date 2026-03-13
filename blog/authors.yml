@@ -17,25 +17,20 @@
 # for your icons. it probably does not need to be bigger than 150px realistically
 # ~ portfiend
 
-taydeo:
-  name: taydeo
-  title: Funky Station Host, Macrocosm person
-  socials:
-    github: taydeo
-  page: true
-
 hivehum:
   name: hivehum
   title: extremely vocal member of impstation
+  image_url: /img/authors/hivehum.png
   socials:
     github: hivehum
   page: true
 
-sheepmera:
-  name: sheepmera
-  title: den owner, chimera, a literal sheepie, macrocosm person 
+mqole:
+  name: mqole
+  title: impstation freak, spreadsheet enthusiast
+  image_url: /img/authors/mqole.png
   socials:
-    github: juniwoofs
+    github: mqole
   page: true
 
 portfiend:
@@ -46,10 +41,16 @@ portfiend:
     github: portfiend
   page: true
 
-mqole:
-  name: mqole
-  title: impstation freak, spreadsheet enthusiast
-  image_url: /img/authors/mqole.png
+sheepmera:
+  name: sheepmera
+  title: den owner, chimera, a literal sheepie, macrocosm person 
   socials:
-    github: mqole
+    github: juniwoofs
+  page: true
+
+taydeo:
+  name: taydeo
+  title: Funky Station Host, Macrocosm person
+  socials:
+    github: taydeo
   page: true
