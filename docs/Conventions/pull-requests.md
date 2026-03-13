@@ -200,8 +200,13 @@ Here is a sample of a well-summarized, fully explained piece of code:
 ### Recommended Reading
 
 [The Robust Book](https://docs.spacestation14.com/) - Space Wizards Development Wiki
+
 [Quick Guide to Space Station 14 Codebase Setup](https://gist.github.com/portfiend/6529ca0b1a5f98747e99ec2beea6a741) by portfiend
+
 [Mutual Aid: A Factor of Evolution](https://theanarchistlibrary.org/library/petr-kropotkin-mutual-aid-a-factor-of-evolution) by Pëtr Kropotkin
+
 [To Change Everything](https://crimethinc.com/tce) by Crimethinc
+
 [Beck's Robust ECS For Dummies](https://docs.google.com/document/d/1GCzkuWUqCNcl4WrmQQMbWgB5q8o0k6LYI46hqSt5cPY/) by widgetbeck
+
 [The Slarti Guide](https://hackmd.io/@Slart/S1hsoGFm1l) by Slartibartfast
