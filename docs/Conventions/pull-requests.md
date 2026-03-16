@@ -207,6 +207,8 @@ Here is a sample of a well-summarized, fully explained piece of code:
 
 [To Change Everything](https://crimethinc.com/tce) by Crimethinc
 
+[Refactoring Guru](https://refactoring.guru/) - Refactoring and Design Patterns
+
 [Beck's Robust ECS For Dummies](https://docs.google.com/document/d/1GCzkuWUqCNcl4WrmQQMbWgB5q8o0k6LYI46hqSt5cPY/) by widgetbeck
 
 [The Slarti Guide](https://hackmd.io/@Slart/S1hsoGFm1l) by Slartibartfast
