@@ -11,14 +11,14 @@ tags:
 
 Macrocosm as an upstream will neither be monetized nor permit any form of direct monetization ever.
 
-For clarity, forms of monetization include:
+Forms of monetization may include (but are not limited to):
 - Patreons/Crowdfunding
 - Code bounties
 - Salaries for maintainers
 - Any form of merchandizing
 - Bribery/lobbying
 
-Microcosms however are free to pursue their own forms of monetization within their own servers as long as it does not directly impact the Macrocosm as a whole.
+Microcosms are free to pursue their own forms of monetization within their own servers, as long as it does not directly impact Macrocosm as a whole.
 
 ## Policy on Code Bounties and Commissioned Content
 
