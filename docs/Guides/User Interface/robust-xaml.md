@@ -1,4 +1,5 @@
 ---
+authors: [portfiend]
 tags:
   - guides
   - ui
@@ -244,6 +245,8 @@ public void SetTitleText(string text)
 ```
 
 This way, external classes have limited access to the properties of `TitleLabel`.
+
+*- [portfiend](/blog/authors/portfiend)*
 
 :::
 
