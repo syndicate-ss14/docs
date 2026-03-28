@@ -13,3 +13,7 @@ microcosms:
   permalink: '/microcosms'
   description: 'Members of Macrocosm.'
   
+proposals:
+  label: 'Proposals'
+  permalink: '/proposals'
+  description: 'Feature proposals and design documents.'
