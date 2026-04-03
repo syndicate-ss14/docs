@@ -27,6 +27,16 @@ A "namespace" is a subfolder in the game's directories that represents original 
 
 All content original to Macrocosm **must be in the `_MACRO`** namespace. This includes all new **prototypes**, **audio**, **textures**, **locale strings**, and **C# code**. When a Microcosm ports their own features to Macrocosm ("upstreaming"), the ported feature should be moved from the Microcosm's namespace (if any) into the `_MACRO` namespace.
 
+:::note[C# Namespaces]
+
+When declaring a namespace in a C# file, there are times when it is more efficient not to use `_MACRO`. If you're writing an extension of an existing `partial` system, you should declare the namespace as the existing system's namespace. Doing this means you don't have to go into all the files that use the existing system and add new `using`s.
+
+For fully original classes / interfaces / etc. you should use `_MACRO` in the namespace declaration.
+
+This only affects the namespace *declaration*. All files should still be in `_MACRO` subfolders.
+
+:::
+
 ### Content should be easy for a downstream to disable
 
 Macrocosm prides itself on its customizability as a base for downstreams. All features should have some way to "opt out" if feasible, ideally via cvars or minimal YML edits. **If a PR introducing a new feature does not provide a way to disable that feature, it may be rejected.**
