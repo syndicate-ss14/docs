@@ -41,18 +41,18 @@ Give a description of what game mechanics you would like to add or change. This 
 ## Game Design Rationale
 
 Consider addressing:
-- How does the feature align with our [Core Design Principles](../space-station-14/core-design/design-principles.md) and game philosphy?
+- How does the feature align with our [Core Design Principles](https://docs.spacestation14.com/en/space-station-14/core-design/design-principles.html) and game philosphy?
 - What makes this feature enjoyable or rewarding for players?
 - Does it introduce meaningful choices, risk vs. reward, or new strategies?
 - How does it enhance player cooperation, competition, or emergent gameplay?
-- If the feature is a new antagonist, how does it fit into the corresponding [design pillars](../space-station-14/round-flow/antagonists.md)?
+- If the feature is a new antagonist, how does it fit into the corresponding [design pillars](https://docs.spacestation14.com/en/space-station-14/round-flow/antagonists.html)?
 
 ## Roundflow & Player interaction
 
 Consider addressing:
 - At what point in the round does the feature come into play? Does it happen every round? How does it affect the round pace?
 - How do you wish for players to interact with your feature and how should they not interact with it? How is this mechanically enforced?
-- Which department will interact with the feature? How does the feature fit into the [design document](../space-station-14/departments.md) for that department?
+- Which department will interact with the feature? How does the feature fit into the [design document](https://docs.spacestation14.com/en/space-station-14/departments.html) for that department?
 
 ## Administrative & Server Rule Impact (if applicable)
 
