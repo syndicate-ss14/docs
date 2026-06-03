@@ -113,18 +113,18 @@ We're going to work through creating our Moth species from the bottom up, meanin
 Now that we have our base Moth mob, it's time to consider what unique aspects our species will have, and add components to our mob accordingly. I want my Moth species to have a unique blood type, more emotes, a special accent, and a different set of damage modifiers. I'll add components to accomplish this in accordance with ECS:
 
   ```yaml
-    components:
-    - type: Damageable
-      damageModifierSet: Moth
-    - type: Speech
-      speechVerb: Moth
-      allowedEmotes: ['Chitter', 'Squeak', 'Flap']
-    - type: Bloodstream
-      bloodReferenceSolution:
-        reagents:
-        - ReagentId: InsectBlood
-          Quantity: 300
-    - type: MothAccent
+  components:
+  - type: Damageable
+    damageModifierSet: Moth
+  - type: Speech
+    speechVerb: Moth
+    allowedEmotes: ['Chitter', 'Squeak', 'Flap']
+  - type: Bloodstream
+    bloodReferenceSolution:
+      reagents:
+      - ReagentId: InsectBlood
+        Quantity: 300
+  - type: MothAccent
   ```
 
   While adding these components, I had to create a new `DamageModifierSet` and new `SpeechVerb`. If you're not sure how to add new components to an entity, it's recommended that you read the SS14 [bikehorn guide](https://docs.spacestation14.com/en/ss14-by-example/adding-a-simple-bikehorn.html) to learn the basics of ECS.
@@ -134,6 +134,8 @@ Now that we have our base Moth mob, it's time to consider what unique aspects ou
 ## Appearance
 
 Our 'Urist' mob is done. Now let's define its appearance. Nubody creates a new entity for this which our Urist inherits, while Oldbody defines everything on the Urist itself.
+
+In this step, we'll also add displacements to our mob. Displacements are optional sprites that function as a 'map' for clothing and other equippable items, and can move or hide pixels on the sprite of the equipped item to make it fit closer to the mob's silhouette. The `Tools` folder contains some templates and Aseprite plugins for creating your own displacements.
 
 <Tabs>
   <TabItem value="Nubody">
@@ -154,14 +156,15 @@ Our 'Urist' mob is done. Now let's define its appearance. Nubody creates a new e
   There are two components that we *need* to add to this entity: `InitialBody` and `HumanoidProfile`. If you're familiar with Oldbody, these are roughly equivalent to `Body` and `HumanoidAppearance` respectively - they define the body parts of the species, and the visual data that will be used.
 
   ```yaml
-    components:
-    - type: InitialBody
-      organs:
-        # A list of organs will go here. We'll look at this later!
-    - type: HumanoidProfile
-      species: Moth
+  components:
+  - type: InitialBody
+    organs:
+      # A list of organs will go here. We'll look at this later!
+  - type: HumanoidProfile
+    species: Moth
   ```
 
+  Just like with our Urist, we can add additional components to this entity or modify components inherited from `BaseSpeciesAppearance`.
 
   </TabItem>
   <TabItem value="Oldbody">
@@ -169,18 +172,60 @@ Our 'Urist' mob is done. Now let's define its appearance. Nubody creates a new e
   To handle the appearance of our Urist, we first need to add a `HumanoidAppearance` component and a `Body` component to the mob.
 
   ```yaml
-    components:
-    - type: HumanoidAppearance
-      species: Moth
-      hideLayersOnEquip:
-      - HeadTop
-    - type: Body
-      prototype: Moth
-      requiredLegs: 2
+  components:
+  - type: HumanoidAppearance
+    species: Moth
+    hideLayersOnEquip:
+    - HeadTop
+  - type: Body
+    prototype: Moth
+    requiredLegs: 2
   ```
 
   </TabItem>
 </Tabs>
+
+For displacements, we'll need to modify our entity's `Inventory` component. Displacements are defined on a per-layer basis - for every layer you want to apply displacement maps to, you will need to point that layer to the desired sprite. Here we are defining some displacements for the `jumpsuit` and the `back` layer:
+
+```yaml
+components:
+- type: Inventory
+  displacements:
+    jumpsuit:
+      sizeMaps:
+        32:
+          sprite: Mobs/Species/Moth/displacement.rsi
+          state: jumpsuit-male
+    back:
+      sizeMaps:
+        32:
+          sprite: Mobs/Species/Moth/displacement.rsi
+          state: back
+```
+
+You also have the option to create sex-specific displacements in addition to standard displacements. If you choose to use sex-specific displacements for your species, you will need to redefine all your displacement layers, even those that are the same as your non-sexed displacement layers.
+
+```yaml
+- type: Inventory
+  femaleDisplacements:
+    jumpsuit:
+      sizeMaps:
+        32:
+          sprite: Mobs/Species/Moth/displacement.rsi
+          state: jumpsuit-female
+    back:
+      sizeMaps:
+        32:
+          sprite: Mobs/Species/Moth/displacement.rsi
+          state: back
+```
+
+This `Inventory` component is also where we can define our species' `InventoryTemplate`, if we have a unique one. `InventoryTemplates` can be used to offset equipped items, determine what slots an entity has for the purposes of equipping items, modify how long it takes to remove an item from a slot, or more.
+
+```yaml
+- type: Inventory
+  speciesId: moth
+```
 
 :::note
 
@@ -192,6 +237,9 @@ Expect a better guide on displacements in the future. It's a complicated system 
 
 ## Body, Parts, Organs
 
+We've pointed our mob to the species and body data that will define how it looks and functions, but we haven't defined our species or our body prototypes yet. Let's start with our body.
+
+Bodies are made up of organs. Organs can be 'internal' (eyes, heart, lungs) or 'external' (arms, torso, head). External organs may also be referred to as 'parts' - this is the term that was used to refer to them in Oldbody, but Nubody consolidated organs and parts into a single prototype. All you need to remember is that internal organs are not visible on the sprite, and external organs / parts are visible.
 
 <Tabs>
   <TabItem value="Nubody">
