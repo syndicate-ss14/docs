@@ -244,11 +244,89 @@ Bodies are made up of organs. Organs can be 'internal' (eyes, heart, lungs) or '
 <Tabs>
   <TabItem value="Nubody">
 
+  Let's start by creating a new base organ.
+
+  ```yaml
+  - type: entity
+    parent: OrganBase
+    id: OrganMoth
+    abstract: true
+    suffix: Moth
+  ```
+
+  Functionally, this is just a copy of `OrganBase` with the `Moth` suffix. Adding a suffix to an entity will show that suffix to anyone searching for this entity in the spawn menu. This is useful to, among other things, let admins tell the difference between two items in the spawn menu both called 'stomach'.
+
+  We're going to do this same process a few times to create some more abstract parent entities we can use in place of the base entities:
+
+  ```yaml
+  - type: entity
+    parent: OrganMoth
+    id: OrganMothInternal
+    abstract: true
+    components:
+    - type: Sprite
+      sprite: Mobs/Species/Human/organs.rsi
+
+  - type: entity
+    id: OrganMothVisual
+    abstract: true
+    components:
+    - type: VisualOrgan
+      data:
+        sprite: Mobs/Species/Moth/parts.rsi
+    - type: VisualOrganMarkings
+      markingData:
+        group: Moth
+
+  - type: entity
+    parent: [ OrganMoth, OrganMothVisual ]
+    id: OrganMothExternal
+    abstract: true
+    components:
+    - type: Sprite
+      sprite: Mobs/Species/Moth/parts.rsi
+  ```
+
+  Here's where we get into the divide between internal and external organs. For our purposes, the main thing you need to know is that internal organs are invisible, and external organs are visible.
+
+  Our internal organs will use human sprites, so we define our sprite path as `Mobs/Species/Human/organs.rsi` (the same path as humans use). We aren't going to include a `state` here - the reason we attach the path to the parent is so that any child entities don't need to redefine that path. A lot of the base parent organs we'll be relying on later have that path defined already!
+
+  `OrganMothVisual` has two components - `VisualOrgan` and `VisualOrganMarkings`. These should point to your `parts.rsi` folder (meaning, the sprites for your species' default body and limbs), and your marking data. We'll be looking at markings later, but what we're doing here is basically just defining what markings this visual organ can accept.
+
+  The last parent we need to define is our metabolizer. This is done for entities that have unique metabolisms, which can be represented by eating food, breathing gas, or even touching pools of liquid.
+
+  ```yaml
+
+  - type: entity
+    id: OrganMothMetabolizer
+    abstract: true
+    components:
+    - type: Metabolizer
+      metabolizerTypes: [ Moth ]
+
+  ```
+
+  Metabolizer types are defined in `Resources/Prototypes/Chemistry/metabolizer_types.yml`, but all the information about how a metabolizer type interacts with different reagents or gases will be stored in the data for those specific reagents or gases.
+
+  :::note
+
+  If you're using organs that already exist, you might not need to define all these parents! For instance, if your species has a diet like a human, you can parent your custom stomach to a human's metabolizing organ base.
+
+  :::
+
   </TabItem>
   <TabItem value="Oldbody">
 
   </TabItem>
 </Tabs>
+
+:::note
+
+Probably also going to make a metabolizer guide in the future.
+
+*- [mqole](/blog/authors/mqole)*
+
+:::~
 
 ## Species Prototype
 
