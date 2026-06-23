@@ -68,7 +68,7 @@ DenTraits / Entity Traits | A replacement of WizDen's trait system.  Instead of 
 Courier | New job for the Cargo department whose job is to deliver mail to crew. | Cargo/Salvage
 Microwave Separation / Frontier Cooking / TG-ish Cooking | 	Microwaves are split into four appliances - microwave, oven, assembler, med. assembler. All cooking recipes are recategorized accordingly. | Service | [Impstation #1935](https://github.com/new-frontiers-14/frontier-station-14/pull/1935), [#2571](https://github.com/impstation/imp-station-14/pull/2571) | relevant devs have given permission to port this to MIT codebases so it should be chill
 Den Character Requirements | Refactor of job requirement system. Makes it easier to add new job/character requirements. Also makes it possible to write requirement-related integration tests. | Core Tech | [The Den #1581](https://github.com/TheDenSS14/TheDen/pull/1581) | pending rewrite for den2 
-Toys | combine our toys / plushies
+Toys | combine our toys / plushies | | | be sure to not spread server-specific plushies through the cosm
 Food rebalance | rebalances reagent inventories of every single craftable edible item in the game so it at minimum matches the ingredients. huge for food being filling | Service | [Impstation #2021](https://github.com/impstation/imp-station-14/pull/2021)
 cosmic cult | bring back coscult | Roundflow/Antag | Funkystation
 Food Sequence Burger Tweaks | visual tweaks to foodsequence burgers to make ingredients layer slightly better, tofu slices, chanterelle mushrooms, carp added to ingredient list, new ingredient sprites for all cutlets, tofu slices, chanterelle, chilis, and tomatoes | Service | [The Den #1289](https://github.com/TheDenSS14/TheDen/pull/1289), [Impstation #471](https://github.com/impstation/imp-station-14/pull/471) | note: DEN added cooked carp and carp cutlets for this. do we want that? note: imp also has quite a few new food sequence burger ingredients. can compare notes
@@ -87,6 +87,7 @@ Obvious Examine | Accessories that will show up on a character's examine text, s
 Go Woke with Descriptions and such | lists PRs that adjust culturally insensitive content. i think it is good to be sensitive and aware and to keep macrocosm upstream tidy as well. | | [Impstation #1494](https://github.com/impstation/imp-station-14/pull/1494), [#3928](https://github.com/impstation/imp-station-14/pull/3928) | currently just listing impstation PRs but if other forks have related PRs please include
 Ghosts Seeing Damage and Solutions on Examine | Ghosts having the ability to be informed during observing? Sign me up buster! | Core Tech | [Impstation #1318](https://github.com/impstation/imp-station-14/pull/1318)
 Reagent Color Text Contrast | Adds contrast to the color of a reagent's text to make readable against the dark text background. | Accessibility | [Impstation #1439](https://github.com/impstation/imp-station-14/pull/1439)
+Un-Shrinkwrapping Moths | Layers moth wings behind clothing so they dont clip into clothing sprites | Visual | [Impstation #3396](https://github.com/impstation/imp-station-14/pull/3396) | Will require more `HumanoidVisualLayers`, might be worth looking into getting more robust directionals. Will 9/11 moth wing colours
 
 ## Completed Features
 | Feature Name | Description | Category | Microcosm PR(s) | Macrocosm PR(s) | Notes |
