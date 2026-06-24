@@ -31,32 +31,32 @@ At absolute minimum, you will need to incorporate the following for your species
 <Tabs>
   <TabItem value="Nubody">
 
-- A `SpeciesPrototype`, which should define:
-- An abstract `EntityPrototype` for your `BaseMob` where your species' components are all handled,
-- A `BaseSpeciesAppearance`,
-- A `MarkingsGroup`,
-- And a `LocalizedDatasetPrototype` of random names to choose from.
+  - A `SpeciesPrototype`, which should define:
+    - An abstract `EntityPrototype` for your `BaseMob` where your species' components are all handled,
+    - A `BaseSpeciesAppearance`,
+    - A `MarkingsGroup`,
+    - And a `LocalizedDatasetPrototype` of random names to choose from.
 
 For your `BaseSpeciesAppearance`, you will also need to create:
 
-- All the limb and organ `EntityPrototype`s,
-- And a new `InventoryTemplatePrototype`.
+  - All the limb and organ `EntityPrototype`s,
+  - And a new `InventoryTemplatePrototype`.
 
   </TabItem>
   <TabItem value="Oldbody">
 
-- A `SpeciesPrototype`, which should define:
-- An abstract `EntityPrototype` for your `BaseMob` where your species' components are all handled,
-- An `EntityPrototype` parented from `BaseSpeciesDummy`,
-- A `SpeciesBaseSpritesPrototype` which will require new `HumanoidBaseSpritePrototype`s for each body part,
-- A `MarkingLimitsPrototype`,
-- And a `LocalizedDatasetPrototype` of random names to choose from.
+  - A `SpeciesPrototype`, which should define:
+    - An abstract `EntityPrototype` for your `BaseMob` where your species' components are all handled,
+    - An `EntityPrototype` parented from `BaseSpeciesDummy`,
+    - A `SpeciesBaseSpritesPrototype` which will require new `HumanoidBaseSpritePrototype`s for each body part,
+    - A `MarkingLimitsPrototype`,
+    - And a `LocalizedDatasetPrototype` of random names to choose from.
 
 For your `BaseMob` entity, you will also need to create:
 
-- A `BodyPrototype` containing your species limbs and organs,
-- All the limb and organ `EntityPrototype`s,
-- And a new `InventoryTemplatePrototype`.
+  - A `BodyPrototype` containing your species limbs and organs,
+  - All the limb and organ `EntityPrototype`s,
+  - And a new `InventoryTemplatePrototype`.
 
   </TabItem>
 </Tabs>
