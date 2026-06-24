@@ -28,7 +28,7 @@ This guide will walk through the steps for creating species in both Nubody and O
 
 At absolute minimum, you will need to incorporate the following for your species to work:
 
-<Tabs>
+<Tabs groupId="Version">
   <TabItem value="Nubody">
 
   - A `SpeciesPrototype`, which should define:
@@ -71,7 +71,7 @@ Make sure all these prototype definitions are in the right folders. Keeping your
 
 We're going to work through creating our Moth species from the bottom up, meaning that we will be starting with making our 'Urist' mob and defining it as a species at the end.
 
-<Tabs>
+<Tabs groupId="Version">
   <TabItem value="Nubody">
 
   First, let's make a new file `moth.yml` in `Resources/Prototypes/Body/Species`. We'll start by defining our new entity, `MobMoth` like so:
@@ -137,7 +137,7 @@ Our 'Urist' mob is done. Now let's define its appearance. Nubody creates a new e
 
 In this step, we'll also add displacements to our mob. Displacements are optional sprites that function as a 'map' for clothing and other equippable items, and can move or hide pixels on the sprite of the equipped item to make it fit closer to the mob's silhouette. The `Tools` folder contains some templates and Aseprite plugins for creating your own displacements.
 
-<Tabs>
+<Tabs groupId="Version">
   <TabItem value="Nubody">
 
   It's time to revisit `AppearanceMoth`. I'll define this as a new entity, putting it above our Urist in the same `moth.yml` file.
@@ -241,7 +241,7 @@ We've pointed our mob to the species and body data that will define how it looks
 
 Bodies are made up of organs. Organs can be 'internal' (eyes, heart, lungs) or 'external' (arms, torso, head). External organs may also be referred to as 'parts' - this is the term that was used to refer to them in Oldbody, but Nubody consolidated organs and parts into a single prototype. All you need to remember is that internal organs are not visible on the sprite, and external organs / parts are visible.
 
-<Tabs>
+<Tabs groupId="Version">
   <TabItem value="Nubody">
 
   Let's start by creating a new base organ.
@@ -330,7 +330,7 @@ Probably also going to make a metabolizer guide in the future.
 
 ## Species Prototype
 
-<Tabs>
+<Tabs groupId="Version">
   <TabItem value="Nubody">
 
   </TabItem>
@@ -363,7 +363,7 @@ If you aren't sure what parameters you need to include for a prototype's yml, co
 
 ## Markings and Customization
 
-<Tabs>
+<Tabs groupId="Version">
   <TabItem value="Nubody">
 
   </TabItem>
