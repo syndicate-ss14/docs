@@ -2,18 +2,56 @@
 
 | Designers | Coders | Implemented | GitHub Links |
 |---|---|---|---|
-| DVD Player | DVD Player, iaada | :x: | TBD |
+| DVD Player, mqole | DVD Player, iaada | :x: | TBD |
 
 ## The Default “Upstream” Folders
+
 This collection is meant to be a very basic collection that any server who has forked from Macro but done no work will be able to just make use of right out the gate. Entity IDs will be intentionally named differently so that even if a fork wants to use something with the same name they don’t have to worry about overlap. 
 
 The idea here is that balance changes made to these weapons will be made at an absolute minimum– the “base game balance” will be based off of the oldest and tried-and-true numbers from our forks without any super new concepts that can rock the boat, and keeping the count of weapons to be small and minimal. Special variations that fit a similar role but offer different takes, such as roundstart disabler/pistol loadouts for secoffs or the quirkier weapons, will not be included. Think of this as a basic hamburger with only ketchup– it will serve as a meal but if you want extra flavourings you are free to check out the other heads of the Macrocosm Hydra.
 
-Cargo/Uplink store offerings I suggest we work off of .cvar or whatever they’re called file toggles– a way that the upstream selection can be outright ignored so it doesn’t have to be edited. This will allow downstreams to be able to have their own menus if they so please without concerns of how it’s going to affect their upmerging experience.
+Cargo / Uplink store offerings I suggest we work off of .cvar or whatever they’re called file toggles – a way that the upstream selection can be outright ignored so it doesn’t have to be edited. This will allow downstreams to be able to have their own menus if they so please without concerns of how it’s going to affect their upmerging experience.
 
-A lot of numbers won’t be referred to here in big details– I can provide those for the other nerds that know what things like accuracy numbers mean.
+A lot of numbers won’t be referred to here in big details – I can provide those for the other nerds that know what things like accuracy numbers mean.
 
 I want to address that, I’ve omitted some options for being redundant. This is by no means meant to be 
+
+```mermaid
+flowchart LR
+    A(Ammunition) --> B(Handheld)
+    B --> C["`**Pistol**
+    Small size. Low capacity and damage, but easily concealable.`"]
+    B --> D["`**Revolver**
+    Heavier-hitting than a pistol, but a chore to reload.`"]
+    A --> E(Precision)
+    E --> F["`**Rifle**
+    All-rounder with a focus on accuracy and DPS.`"]
+    E --> G["`**Sniper**
+    Slow rate of fire and ammo capacity, but hits hard.`"]
+    A --> H(Wide Spread)
+    H --> I["`**Machine Gun**
+    Sacrifices accuracy in favour of a huge magazine capacity.`"]
+    H --> J["`**Shotgun**
+    Shoots several bullets in an arc that fans out.`"]
+    K(Energy) --> L(Lethal)
+    L --> M["`**Laser**
+    Shoots a single beam that goes through glass walls and deals heat damage.`"]
+    L --> N["`**Blaster**
+    Shoots several heat projectiles in an arc that fan out.`"]
+    K --> O(Non-Lethal)
+    O --> P["`**Disabler**
+    Deals stamina damage.`"]
+    Q(Other) --> R["`**Launcher**
+    Loadable with explosives. Slow fire rate.`"]
+    Q --> S["`**Fuel**
+    Loadable with reagents.`"]
+    Q --> T["`**Special**
+    Anything that doesn't fall into one of the other categories.`"]
+```
+
+## Specific Numbers for Freaks
+
+Below are
 
 ### Ammo Types
 - .35 Auto – 16 pierce
