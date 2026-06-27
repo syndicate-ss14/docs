@@ -16,39 +16,6 @@ A lot of numbers won’t be referred to here in big details – I can provide th
 
 I want to address that, I’ve omitted some options for being redundant. This is by no means meant to be 
 
-```mermaid
-flowchart LR
-    A(Ammunition) --> B(Handheld)
-    B --> C["`**Pistol**
-    Small size. Low capacity and damage, but easily concealable.`"]
-    B --> D["`**Revolver**
-    Heavier-hitting than a pistol, but a chore to reload.`"]
-    A --> E(Precision)
-    E --> F["`**Rifle**
-    All-rounder with a focus on accuracy and DPS.`"]
-    E --> G["`**Sniper**
-    Slow rate of fire and ammo capacity, but hits hard.`"]
-    A --> H(Wide Spread)
-    H --> I["`**Machine Gun**
-    Sacrifices accuracy in favour of a huge magazine capacity.`"]
-    H --> J["`**Shotgun**
-    Shoots several bullets in an arc that fans out.`"]
-    K(Energy) --> L(Lethal)
-    L --> M["`**Laser**
-    Shoots a single beam that goes through glass walls and deals heat damage.`"]
-    L --> N["`**Blaster**
-    Shoots several heat projectiles in an arc that fan out.`"]
-    K --> O(Non-Lethal)
-    O --> P["`**Disabler**
-    Deals stamina damage.`"]
-    Q(Other) --> R["`**Launcher**
-    Loadable with explosives. Slow fire rate.`"]
-    Q --> S["`**Fuel**
-    Loadable with reagents.`"]
-    Q --> T["`**Special**
-    Anything that doesn't fall into one of the other categories.`"]
-```
-
 ## Specific Numbers for Freaks
 
 Below are
