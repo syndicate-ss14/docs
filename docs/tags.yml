@@ -17,7 +17,7 @@ microcosms:
   label: 'Microcosms'
   permalink: '/microcosms'
   description: 'Members of Macrocosm.'
-  
+
 proposals:
   label: 'Proposals'
   permalink: '/proposals'
