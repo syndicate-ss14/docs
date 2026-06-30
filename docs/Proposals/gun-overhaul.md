@@ -41,7 +41,7 @@ flowchart LR
     E --> F["`**Rifle**
     All-rounder with a focus on accuracy and DPS.`"]
     E --> G["`**Sniper**
-    Slow rate of fire and ammo capacity, but hits hard.`"]
+    Slow rate of fire and low ammo capacity, but hits hard.`"]
     A --> H(Wide Spread)
     H --> I["`**Machine Gun**
     Sacrifices accuracy in favour of a huge magazine capacity.`"]
