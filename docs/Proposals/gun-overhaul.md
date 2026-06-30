@@ -1,3 +1,9 @@
+---
+authors: [mqole]
+tags:
+- proposals
+---
+
 # Gun Overhaul
 
 | Designers | Coders | Implemented | GitHub Links |
@@ -75,3 +81,20 @@ From this base category system, each gun then has two *qualities*. Qualities sho
   - Heavy hitting ammo, and it doubles as a melee weapon
 
 While **categories** are static identifiers that exist to denote a gun's accepted ammunition and general purpose, *qualities* are more flexible and subjective. These two systems of categorisation combine to provide a lot more glance value to guns.
+
+Categories and qualities should be **player-facing**. This may be done through highlighted examine text, or some other means. The priority is ensuring that players are able to quickly recognize and understand a gun's function.
+
+Visual design of guns should also be considered. Gun sprites and designs should intuitively convey to players the gun's category and some signifier of its qualities or overall identity.
+
+It's vital to note that categories are intended to **intuitively provide information to players**. As such, subverting these categories (by designing a rifle which has the functions of a shotgun, for example) is confusing and muddies the information this system intends to provide. This kind of subversion of categories should be avoided as a general rule.
+
+## File Structure
+
+In order to comprehensively organize all the gun entities in the game, the YAML entity files will need to be cleaned up as follows:
+
+- A file `base-guns.yml` containing base entities (eg. `BasePistol`, `BaseShotgun`) for each gun category.
+  - The base entities should be parented from `BaseItem` and given a 'baseline' indication of what that gun's average stats are in terms of reload speed, fire rate, ammo capacity, etc.
+- Individual files (`pistols.yml`, `shotguns.yml`, etc.) for each category containing all the gun entities that fit that category.
+  - In these files, users may also define additional base prototypes in order to create guns which have a shared identity but differ in aesthetics- for example, creating entity `BasePistolLight` in `pistols.yml`, which becomes the parent of both `WeaponGunMk58` and `WeaponGunViper`.
+
+These new entities may be selectively overwritten by downstreams of Macrocosm. It may be useful to use a naming scheme such as `MACROGunViper` to ease the process of editing Macrocosm entities.
