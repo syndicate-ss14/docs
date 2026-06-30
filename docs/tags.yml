@@ -13,6 +13,11 @@ guides:
   permalink: '/guides'
   description: 'Instructions on how to perform a certain task.'
 
+maintainers:
+  label: 'Maintainers'
+  permalink: '/maintainers'
+  description: 'Documents written for maintainers - not necessarily Macrocosm-specific.'
+
 microcosms:
   label: 'Microcosms'
   permalink: '/microcosms'
