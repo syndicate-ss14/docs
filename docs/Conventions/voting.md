@@ -42,7 +42,7 @@ This is a pull request that fixes an unintended issue with a feature to bring it
 
 Category D pull requests **do not require a vote**, only a passing code review, but any Microcosm representative may flag the pull request to be retriaged to a different category, even if they are not a code reviewer or a member of the triage team.
 
-Category D does **not** apply to "subjective" changes, such as balance tweaks, unless the original number in question is blatantly contradictory to the original design. 
+Category D does **not** apply to "subjective" changes, such as balance tweaks, unless the original value in question is blatantly contradictory to the intended design. 
 
 - ***Applicable:*** The metabolism delay of a species is meant to be `0.5x` as long, but was written as `2x` instead.
 - ***Not Applicable:*** The metabolism delay of a species is `2x` as long, but a contributor thinks this is too much and wants to make it `1.5x` instead. This would likely be Category A.
