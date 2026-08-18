@@ -37,6 +37,24 @@ This only affects the namespace *declaration*. All files should still be in `_MA
 
 :::
 
+### Macrocosm CVars should begin with `macrocosm`
+
+When adding a new CVar, it should be defined in the `Content.Shared/_MACRO/CCVar/` folder and include `macrocosm` at the start of the name, like so:
+
+```cs
+public static readonly CVarDef<int> ConsumptionGibThreshold =
+    CVarDef.Create("macrocosm.consumption.gib_threshold", 12, CVar.NOTIFY | CVar.REPLICATED | CVar.SERVER);
+```
+
+In a server's configuration `.toml` file, this would look something like this.
+
+```toml
+[macrocosm.consumption]
+gib_threshold = 12
+```
+
+This makes it clear to downstreams that a CVar comes from us, and futureproofs against possible incompatibility with a Wizard's Den CVar during upmerges.
+
 ### Content should be easy for a downstream to disable
 
 Macrocosm prides itself on its customizability as a base for downstreams. All features should have some way to "opt out" if feasible, ideally via cvars or minimal YML edits. **If a PR introducing a new feature does not provide a way to disable that feature, it may be rejected.**
