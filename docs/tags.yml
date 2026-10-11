@@ -27,3 +27,8 @@ ui:
   label: 'User Interface'
   permalink: '/ui'
   description: 'Documents focused on in-game user interface development.'
+
+species:
+  label: 'Species'
+  permalink: '/species'
+  description: 'Documents regarding the species Macrocosm hosts.'
