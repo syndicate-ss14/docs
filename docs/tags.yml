@@ -23,6 +23,13 @@ proposals:
   permalink: '/proposals'
   description: 'Feature proposals and design documents.'
 
+# GUIDE TAGS
+
+codebase:
+  label: 'Codebase Management'
+  permalink: '/codebase'
+  description: 'Documents focused on managing the codebase, including using Git, IDEs, making Pull Requests, and more.'
+
 ui:
   label: 'User Interface'
   permalink: '/ui'

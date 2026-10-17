@@ -13,6 +13,7 @@ All pull requests fall under one of four categories:
 * Category B: Universally Agreed-on
 * Category C: Extreme Maintenance Burden
 * Category D: Intended Behavior
+* Category E: Upstream Merge (colloquially "upmerge")
 
 The categorization of each Pull Request is done by the triage team.
 
@@ -46,3 +47,11 @@ Category D does **not** apply to "subjective" changes, such as balance tweaks, u
 
 - ***Applicable:*** The metabolism delay of a species is meant to be `0.5x` as long, but was written as `2x` instead.
 - ***Not Applicable:*** The metabolism delay of a species is `2x` as long, but a contributor thinks this is too much and wants to make it `1.5x` instead. This would likely be Category A.
+
+### Category E: Upstream Merge
+
+This is a pull request that exclusively pulls changes from Wizard's Den's `master` branch. Like category D, these pull requests are considered "pre-approved", and **do not require a vote** as it is expected that Wizard's Den will have provided a level of quality control as to the pull request's contents.
+
+Any "fix commits," or otherwise any commits that do not belong to Wizard's Den, require **at least one code review** before the pull request may be merged.
+
+If the author of a category E pull request suspects that commit(s) within the pull request may require a vote, they should make note of these commit(s) within the body of the pull request. All category E pull requests require **at least one triage review** to catch any commit(s) that may require a vote. Any Microcosm representative may initiate a vote to revert any commit(s) within this pull request at their discretion, and these votes ahould be conducted independently from the process of reviewing the pull request. If such a vote passes, reverting the commit(s) should be done in a separate category B pull request, so as not to stall the progress of the category E pull request.
