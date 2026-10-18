@@ -1,6 +1,7 @@
 ---
 description: 'Behold: a man!'
 tags:
+  - features
   - species
 ---
 

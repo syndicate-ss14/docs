@@ -2,6 +2,7 @@
 title: Apids
 description: 'Bee people. Beeple, if you will.'
 tags:
+  - features
   - species
 ---
 

@@ -2,6 +2,7 @@
 title: Decapoids
 description: 'Kneel before the empire.'
 tags:
+  - features
   - species
 ---
 

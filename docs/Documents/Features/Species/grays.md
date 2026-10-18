@@ -2,6 +2,7 @@
 title: Grays
 description: 'Pisk mo, stupee!'
 tags:
+  - features
   - species
 ---
 

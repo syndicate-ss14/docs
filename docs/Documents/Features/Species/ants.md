@@ -2,6 +2,7 @@
 title: Ants
 description: 'Ants.'
 tags:
+  - features
   - species
 ---
 

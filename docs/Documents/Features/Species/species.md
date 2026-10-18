@@ -2,6 +2,7 @@
 title: Species
 description: 'Species that Macrocosm hosts.'
 tags:
+  - features
   - species
 ---
 

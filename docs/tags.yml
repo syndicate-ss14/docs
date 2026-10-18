@@ -28,6 +28,11 @@ ui:
   permalink: '/ui'
   description: 'Documents focused on in-game user interface development.'
 
+features:
+  label: 'Features'
+  permalink: '/features'
+  description: 'Documents relating to any in-game features, including feature proposals.'
+
 species:
   label: 'Species'
   permalink: '/species'
