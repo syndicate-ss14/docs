@@ -11,7 +11,7 @@ Backporting PRs from our microcosms to the Macrocosm repository can happen for m
 1. The feature is desired by multiple microcosms
 2. The feature is an extreme maintenance burden
 
-*(You can read more about these reasons on our [Voting](../Conventions/voting.md) page.)*
+*(You can read more about these reasons on our [Voting](../../Conventions/voting.md) page.)*
 
 This page exists to streamline the process of backporting by creating a list of PRs that exist on microcosms which fit one of these two criteria. It serves as a reference for:
 
